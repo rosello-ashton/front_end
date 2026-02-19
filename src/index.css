@@ -1,0 +1,169 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden; /* Prevents scrollbars during animation */
+}
+
+/* Left Side Styling */
+.login-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.illustration-wrapper {
+  max-width: 80%;
+}
+
+.illustration-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Right Side Styling */
+.login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d73e6; /* Bright blue background */
+  position: relative;
+  overflow: hidden; /* For decorative circles */
+}
+
+/* Decorative Background Circles */
+.bg-decoration {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.dec-1 {
+  width: 400px;
+  height: 400px;
+  bottom: -100px;
+  right: -100px;
+}
+
+.dec-2 {
+  width: 550px;
+  height: 550px;
+  bottom: -200px;
+  right: -200px;
+}
+
+/* Login Card Styling */
+.login-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 380px;
+  z-index: 10;
+}
+
+.login-card h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 15px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+/* Form Inputs */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a0a0a0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px 14px 14px 45px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #0d73e6;
+}
+
+.input-group input::placeholder {
+  color: #a0a0a0;
+}
+
+/* Login Button */
+.login-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #0d73e6;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0b60c2;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+  text-decoration: none;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+  color: #0d73e6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+  
+  .login-left {
+    display: none; /* Hide illustration on smaller screens */
+  }
+  
+  .login-right {
+    padding: 20px;
+  }
+}
