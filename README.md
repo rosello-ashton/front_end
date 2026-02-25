@@ -1,3 +1,27 @@
+# Program & Subject Offerings UI (React + Vite)
+
+This workspace is a frontend‑only demo of an academic offerings system. It includes:
+
+- **Dashboard**: summary stats and a simple chart
+- **Program offerings**: listing, filters, detail modal
+- **Subject offerings**: listing, filters, detail modal
+
+Data is mocked via JSON files under `src/data`. No backend is used.
+
+Use `npm run dev` to start the development server and open `http://localhost:5173`.
+
+### Folder structure
+
+```
+src/
+  components/      # UI components (Dashboard, lists, cards, details, filters)
+  data/            # mock JSON data for programs & subjects
+  App.jsx          # main entry with view state and modals
+  main.jsx
+```
+
+The rest of this README is the original Vite template information. Feel free to scroll.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

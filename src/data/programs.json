@@ -1,0 +1,54 @@
+[
+  {
+    "code": "BSIT",
+    "name": "Bachelor of Science in Information Technology",
+    "type": "bachelor's",
+    "duration": "4 years",
+    "units": 160,
+    "status": "active",
+    "yearLevels": {
+      "1": [
+        { "code": "IT101", "title": "Introduction to Computing" },
+        { "code": "IT102", "title": "Computer Programming" }
+      ],
+      "2": [
+        { "code": "IT201", "title": "Data Structures" }
+      ],
+      "3": [
+        { "code": "IT301", "title": "Web Development" }
+      ],
+      "4": [
+        { "code": "IT401", "title": "Senior Project" }
+      ]
+    },
+    "added": "2025-08-01"
+  },
+  {
+    "code": "BSCS",
+    "name": "Bachelor of Science in Computer Science",
+    "type": "bachelor's",
+    "duration": "4 years",
+    "units": 162,
+    "status": "active",
+    "yearLevels": {
+      "1": [
+        { "code": "CS101", "title": "Fundamentals of Computing" }
+      ]
+    },
+    "added": "2025-09-15"
+  },
+  {
+    "code": "DIPIT",
+    "name": "Diploma in Information Technology",
+    "type": "diploma",
+    "duration": "2 years",
+    "units": 80,
+    "status": "phased out",
+    "yearLevels": {
+      "1": [
+        { "code": "ITD101", "title": "IT Fundamentals" }
+      ]
+    },
+    "added": "2024-01-20"
+  }
+]

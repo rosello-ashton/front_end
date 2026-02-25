@@ -1,0 +1,52 @@
+[
+  {
+    "code": "IT101",
+    "title": "Introduction to Computing",
+    "units": 3,
+    "semester": "1",
+    "program": "BSIT",
+    "prerequisites": [],
+    "corequisites": [],
+    "description": "Basic computer concepts and using software applications."
+  },
+  {
+    "code": "IT102",
+    "title": "Computer Programming",
+    "units": 4,
+    "semester": "1",
+    "program": "BSIT",
+    "prerequisites": ["IT101"],
+    "corequisites": [],
+    "description": "Introduction to programming using Python."
+  },
+  {
+    "code": "IT201",
+    "title": "Data Structures",
+    "units": 3,
+    "semester": "2",
+    "program": "BSIT",
+    "prerequisites": ["IT102"],
+    "corequisites": [],
+    "description": "Study of common data structures and algorithms."
+  },
+  {
+    "code": "CS101",
+    "title": "Fundamentals of Computing",
+    "units": 3,
+    "semester": "1",
+    "program": "BSCS",
+    "prerequisites": [],
+    "corequisites": [],
+    "description": "Foundations of computer science and problem solving."
+  },
+  {
+    "code": "ITD101",
+    "title": "IT Fundamentals",
+    "units": 2,
+    "semester": "1",
+    "program": "DIPIT",
+    "prerequisites": [],
+    "corequisites": [],
+    "description": "Overview of information technology concepts for diploma students."
+  }
+]
